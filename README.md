@@ -1,69 +1,17 @@
-# News Feed Simulator
+## Identitas
 
-Aplikasi simulasi news feed menggunakan Kotlin dan Jetpack Compose.
+Nama: Jundi Lamtara  
+NIM: 124140190  
+GitHub: Jey-EL  
 
-## Fitur
+## Repository
 
-Aplikasi ini menerapkan:
+https://github.com/Jey-EL/NewsFeedSimulator
 
-- Flow untuk menghasilkan berita baru setiap 2 detik.
-- Filter berita berdasarkan kategori Technology.
-- Transformasi data berita menggunakan Flow operator.
-- StateFlow untuk menyimpan jumlah berita yang telah dibaca.
-- Coroutines dengan async/await untuk mengambil detail berita secara asynchronous.
-- Error handling pada proses pengambilan detail berita.
+## Screenshot Aplikasi
 
-## Teknologi
+### 1. Android
 
-- Kotlin
-- Jetpack Compose
-- Kotlin Coroutines
-- Flow
-- StateFlow
-- Android Studio
+<img width="720" height="1600" alt="WhatsApp Image 2026-09-25 at 7 39 50 PM" src="https://github.com/user-attachments/assets/355efb66-2e27-4802-a248-f407512a6827" />
 
-## Cara Menjalankan
-
-1. Clone repository ini.
-2. Buka project menggunakan Android Studio.
-3. Tunggu proses Gradle Sync selesai.
-4. Jalankan aplikasi menggunakan emulator atau perangkat Android.
-5. Aplikasi akan menampilkan berita kategori Technology yang dihasilkan setiap 2 detik.
-
-## Cara Menggunakan
-
-### 1. Melihat Berita
-
-Berita baru akan muncul secara otomatis setiap 2 detik.
-
-### 2. Menandai Berita sebagai Dibaca
-
-Tekan tombol:
-
-`Tandai Sudah Dibaca`
-
-Jumlah berita yang dibaca akan bertambah.
-
-### 3. Mengambil Detail Berita
-
-Tekan tombol:
-
-`Ambil Detail Berita`
-
-Aplikasi akan mengambil detail berita secara asynchronous.
-
-## Struktur Project
-
-```text
-NewsFeedSimulator
-├── app
-│   └── src
-│       └── main
-│           └── java
-│               └── com.example.newsfeedsimulator
-│                   ├── MainActivity.kt
-│                   ├── NewsViewModel.kt
-│                   └── news
-│                       ├── News.kt
-│                       └── NewsRepository.kt
-└── README.md
+<img width="720" height="1600" alt="WhatsApp Image 2026-09-25 at 7 39 50 PM (1)" src="https://github.com/user-attachments/assets/ec573924-1418-4c2a-a48c-10b1817b2efe" />
